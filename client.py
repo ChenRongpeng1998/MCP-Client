@@ -209,7 +209,7 @@ class MCPClient(MCPClientBase):
 
 async def main():
     print("start test...")
-    client = MCPClientBase('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',
+    client = MCPClientBase('your_api',
                            "deepseek/deepseek-chat-v3-0324:free")
     try:
         await client.initialize()
