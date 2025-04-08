@@ -50,8 +50,3 @@ class OpenRouterAugmentedLLM:
         else:
             raise Exception("Error: {}".format(response.content))
     
-
-if __name__ == "__main__":
-    open_router = OpenRouterAugmentedLLM('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',
-                                         "deepseek/deepseek-chat-v3-0324:free")
-    print(open_router.get_response_p("Hello,who are you?"))
