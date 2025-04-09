@@ -6,6 +6,7 @@ __pycache__/
 test.py
 *.py[oc]
 *.egg-info
+client_setting.json
 # Virtual environments
 .venv/
 
